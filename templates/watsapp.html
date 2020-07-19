@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send Messages</title>
+</head>
+<style type="text/css">
+	body{
+        background: #70e1f5;
+        background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);
+        background: linear-gradient(to left, #ffd194, #70e1f5); 
+      }
+</style>
+<body>
+	<div align="middle">
+		<form action="http://127.0.0.1:5000/data" method = "POST">
+			<h3>Enter Number:</h3><input type="text" name="num" placeholder="Enter with country code '+'">
+			<h3>Enter Message:</h3><input type="text" name="msg"><br><br>
+			<input type="submit" oncliname="sub">
+			<p id="res"></p>
+		</form>
+		
+	</div>
+</body>
+</html>
